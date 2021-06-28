@@ -19,6 +19,3 @@
 [submodule "pack/vendor/start/vim-vue"]
 	path = pack/vendor/start/vim-vue
 	url = https://github.com/posva/vim-vue.git
-[submodule "pack/vendor/start/ale"]
-	path = pack/vendor/start/ale
-	url = https://github.com/dense-analysis/ale.git

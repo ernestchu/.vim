@@ -4,3 +4,21 @@
 [submodule "pack/vendor/start/lightline.vim"]
 	path = pack/vendor/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
+[submodule "pack/vendor/start/nerdtree"]
+	path = pack/vendor/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/vendor/start/tabular"]
+	path = pack/vendor/start/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "pack/vendor/start/vim-markdown"]
+	path = pack/vendor/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "pack/vendor/start/emmet-vim"]
+	path = pack/vendor/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "pack/vendor/start/vim-vue"]
+	path = pack/vendor/start/vim-vue
+	url = https://github.com/posva/vim-vue.git
+[submodule "pack/vendor/start/ale"]
+	path = pack/vendor/start/ale
+	url = https://github.com/dense-analysis/ale.git

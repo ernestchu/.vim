@@ -1,0 +1,6 @@
+[submodule "pack/vendor/start/vim-color-xcode"]
+	path = pack/vendor/start/vim-color-xcode
+	url = https://github.com/arzg/vim-colors-xcode.git
+[submodule "pack/vendor/start/lightline.vim"]
+	path = pack/vendor/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git

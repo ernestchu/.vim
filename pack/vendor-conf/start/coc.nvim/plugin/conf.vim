@@ -1,1 +1,5 @@
-let g:coc_global_extensions = ['coc-tsserver', 'coc-json']
+let g:coc_global_extensions = [
+    \ 'coc-json',
+    \ 'coc-tsserver', 
+    \ 'coc-clangd'
+    \ ]

@@ -9,7 +9,7 @@ git submodule update --init
 
 ## Update all plugins
 ```sh
-git submodule foreach git pull origin master
+git submodule foreach git pull
 git add .
 git commit -m "update submodules"
 ```

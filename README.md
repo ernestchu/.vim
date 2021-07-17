@@ -1,4 +1,4 @@
-# My Vim Configuration
+# My VIM Configuration
 
 ## Install
 ```sh

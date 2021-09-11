@@ -7,10 +7,10 @@ set shiftwidth=4
 set expandtab
 filetype plugin indent on
 
-" set special indent for web dev
-au BufNewFile,BufRead *.html,*.js,*.vue,*.scss,*.tex,*.sty set tabstop=2
-au BufNewFile,BufRead *.html,*.js,*.vue,*.scss,*.tex,*.sty set softtabstop=2
-au BufNewFile,BufRead *.html,*.js,*.vue,*.scss,*.tex,*.sty set shiftwidth=2
+" set special indent
+au BufNewFile,BufRead *.html,*.js,*.vue,*.scss,*.tex,*.sty,*.md set tabstop=2
+au BufNewFile,BufRead *.html,*.js,*.vue,*.scss,*.tex,*.sty,*.md set softtabstop=2
+au BufNewFile,BufRead *.html,*.js,*.vue,*.scss,*.tex,*.sty,*.md set shiftwidth=2
 
 " stop auto indent
 au BufNewFile,BufRead *.tex setlocal noai nocin nosi inde=

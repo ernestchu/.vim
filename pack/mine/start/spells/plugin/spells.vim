@@ -1,2 +1,2 @@
 " spell check
-au BufNewFile,BufRead *.md,*.tex setlocal spell
+au BufNewFile,BufRead *.md,*.tex,*.yaml,*.json setlocal spell

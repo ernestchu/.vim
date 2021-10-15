@@ -13,3 +13,8 @@ git submodule foreach git pull
 git add .
 git commit -m "update submodules"
 ```
+## Use the theme in tmux
+In `.tmux.conf`
+```
+set -g default-terminal "xterm-256color"
+```

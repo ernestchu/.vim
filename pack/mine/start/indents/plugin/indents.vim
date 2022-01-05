@@ -8,9 +8,9 @@ set expandtab
 filetype plugin indent on
 
 " set special indent
-au BufNewFile,BufRead *.html,*.js,*.vue,*.css,*.tex,*.sty,*.md set tabstop=2
-au BufNewFile,BufRead *.html,*.js,*.vue,*.css,*.tex,*.sty,*.md set softtabstop=2
-au BufNewFile,BufRead *.html,*.js,*.vue,*.css,*.tex,*.sty,*.md set shiftwidth=2
+au BufNewFile,BufRead *.html,*.php,*.js,*.vue,*.css,*.tex,*.sty,*.md set tabstop=2
+au BufNewFile,BufRead *.html,*.php,*.js,*.vue,*.css,*.tex,*.sty,*.md set softtabstop=2
+au BufNewFile,BufRead *.html,*.php,*.js,*.vue,*.css,*.tex,*.sty,*.md set shiftwidth=2
 
 " stop auto indent
 au BufNewFile,BufRead *.tex setlocal noai nocin nosi inde=

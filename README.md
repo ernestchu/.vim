@@ -4,12 +4,12 @@
 ```sh
 git clone https://github.com/ernestchu/.vim.git ~/.vim
 cd ~/.vim
-git submodule update --init
+git submodule update --init --remote --recursive
 ```
 
 ## Update all plugins
 ```sh
-git submodule foreach git pull
+git submodule update --remote --recursive
 git add .
 git commit -m "update submodules"
 ```

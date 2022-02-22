@@ -18,3 +18,6 @@ In `.tmux.conf`
 ```
 set -g default-terminal "xterm-256color"
 ```
+
+## Notes
+For `@yaegassy/coc-volar`, `brew install watchman` for the full functionality.

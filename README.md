@@ -7,6 +7,11 @@ cd ~/.vim
 git submodule update --init --remote --recursive
 ```
 
+### Install a plugin
+```sh
+git submodule add <plugin repository> pack/vendor/start/<arbitrary plugin name>
+```
+
 ### Update all plugins
 ```sh
 git submodule update --remote --recursive
@@ -23,6 +28,3 @@ In `.tmux.conf`
 ```
 set -g default-terminal "xterm-256color"
 ```
-
-## Notes
-For `@yaegassy/coc-volar`, `brew install watchman` for the full functionality.

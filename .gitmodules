@@ -23,3 +23,6 @@
 [submodule "pack/vendor/start/surround"]
 	path = pack/vendor/start/surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/vendor/start/commentary"]
+	path = pack/vendor/start/commentary
+	url = https://tpope.io/vim/commentary.git

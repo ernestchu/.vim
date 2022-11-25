@@ -1,14 +1,13 @@
 " Detect dark mode
-let s:darkTheme = "xcodedarkhc"
+let s:darkTheme = "xcodedark"
 let s:lightTheme = "xcodelight"
 
-let darkMode = system('defaults read -g AppleInterfaceStyle')
-if darkMode == "Dark\n"
-    let g:lightline = { 'colorscheme': 'powerline' }
-    exe printf('colorscheme %s', s:darkTheme)
-else
+if has('macunix') && system('defaults read -g AppleInterfaceStyle') != "Dark\n"
     let g:lightline = { 'colorscheme': 'ayu_light' }
     exe printf('colorscheme %s', s:lightTheme)
+else
+    let g:lightline = { 'colorscheme': 'powerline' }
+    exe printf('colorscheme %s', s:darkTheme)
 endif
 
 " light/dark toggle

@@ -32,3 +32,6 @@
 [submodule "pack/vendor/start/vim-buffergator"]
 	path = pack/vendor/start/vim-buffergator
 	url = https://github.com/jeetsukumaran/vim-buffergator.git
+[submodule "pack/vendor/start/lightline-bufferline"]
+	path = pack/vendor/start/lightline-bufferline
+	url = https://github.com/mengelbrecht/lightline-bufferline.git

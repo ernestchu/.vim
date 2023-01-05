@@ -3,6 +3,7 @@ set number
 set mouse=a
 set clipboard=unnamed
 set laststatus=2
+set showtabline=2
 
 " search settings
 set hlsearch " hilight

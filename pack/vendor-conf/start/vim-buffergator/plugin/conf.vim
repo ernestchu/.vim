@@ -8,14 +8,13 @@ let g:buffergator_suppress_keymaps = 1
 "let g:buffergator_mru_cycle_loop = 1
 
 " Go to the previous buffer open
-nmap <leader>jj :BuffergatorMruCyclePrev<cr>
-
+nmap H gT :BuffergatorMruCyclePrev<cr>
 " Go to the next buffer open
-nmap <leader>kk :BuffergatorMruCycleNext<cr>
+nmap L gt :BuffergatorMruCycleNext<cr>
 
 " View the entire list of buffers open
 nmap <leader>bl :BuffergatorOpen<cr>
 
 " Shared bindings from Solution #1 from earlier
-nmap <leader>T :enew<cr>
+nmap <leader>be :enew<cr>
 nmap <leader>bq :bp <BAR> bd #<cr>

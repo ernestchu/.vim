@@ -18,6 +18,13 @@ git submodule update --remote --recursive
 git add .
 git commit -m "update submodules"
 ```
+
+### Remove a plugin
+You can use `cat .gitmodules` to check <path-to-submodule>
+```sh
+git rm <path-to-submodule>
+```
+
 ### Update coc.nvim extensions
 ```vim
 :CocUpdate

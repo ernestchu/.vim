@@ -8,9 +8,9 @@ let g:buffergator_suppress_keymaps = 1
 "let g:buffergator_mru_cycle_loop = 1
 
 " Go to the previous buffer open
-nmap H gT :BuffergatorMruCyclePrev<cr>
+nmap H [b
 " Go to the next buffer open
-nmap L gt :BuffergatorMruCycleNext<cr>
+nmap L ]b
 
 " View the entire list of buffers open
 nmap <leader>bl :BuffergatorOpen<cr>

@@ -35,3 +35,6 @@
 [submodule "pack/vendor/start/lightline-bufferline"]
 	path = pack/vendor/start/lightline-bufferline
 	url = https://github.com/mengelbrecht/lightline-bufferline.git
+[submodule "pack/vendor/start/vimtex"]
+	path = pack/vendor/start/vimtex
+	url = https://github.com/lervag/vimtex.git

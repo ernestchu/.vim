@@ -1,6 +1,6 @@
 syntax on
 set number
-" set mouse=a
+set mouse=
 " set clipboard=unnamed
 set laststatus=2
 set showtabline=2

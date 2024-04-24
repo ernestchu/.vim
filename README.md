@@ -2,9 +2,7 @@
 
 ### Install
 ```sh
-git clone https://github.com/ernestchu/.vim.git ~/.vim
-cd ~/.vim
-git submodule update --init --remote --recursive
+git clone --recurse-submodules https://github.com/ernestchu/.vim.git ~/.vim
 ```
 
 ### Install a plugin
